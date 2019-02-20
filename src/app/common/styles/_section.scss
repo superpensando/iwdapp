@@ -1,0 +1,59 @@
+// section default styles
+@import './variables';
+@import './mixins';
+
+.section {
+  &__base {
+    padding: $safety-zone-m $safety-zone-s*2;
+
+    &.atomic-padding {
+      &--none {
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    &.atomic-padding {
+      &--small {
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    &.sponsors {
+      padding-top: 0;
+      background-color: $c-wtm-background-color-contrast;
+
+      .mat-grid-tile {
+        @include boxShadow();
+        background-color: white;
+      }
+    }
+    &.speakers {
+      padding-top: 0;
+      background-color: $c-wtm-medium-grey;
+    }
+    &.cta {
+      background-color: $c-wtm-background-color-section;
+    }
+    &.organizers {
+      background-color: $c-wtm-yellow;
+
+      .mat-grid-tile {
+        max-width: 100px;
+      }
+      .teaser {
+        &__wrapper {
+          max-width: 600px;
+        }
+        &__hl {
+          font-size: 36px;
+        }
+        &__base {
+          padding: 20px;
+        }
+      }
+      
+    }
+  }
+}

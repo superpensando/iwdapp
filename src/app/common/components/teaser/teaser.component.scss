@@ -1,0 +1,35 @@
+// teaser component styles
+@import '../../styles/variables';
+
+.teaser {
+  &__wrapper {
+    &--hero {
+      min-height: 400px;
+      .teaser {
+        &__description {
+          width: 40%;
+          color: $c-white;
+          padding: $safety-zone-m;
+        }
+        &__hl {
+          font-size: 36px;
+        }
+        &__txt {
+          font-size: 24px;
+          line-height: 1.6;
+          &.atomic-special--date {
+            font-style: italic;
+          }
+        }
+      }
+    }
+  }
+  &__hl {
+    color: $c-white;
+  }
+  &__figure {
+    img {
+      max-width: 100%;
+    }
+  }
+}

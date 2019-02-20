@@ -1,0 +1,17 @@
+// grid styles
+.grid {
+  &__base {
+    display: grid;
+    grid-template-columns: 1fr;
+    &--left {
+      @media (min-width: 400px) {
+        grid-template-columns: 1fr 2fr;
+      }
+    }
+    &--right {
+      @media (min-width: 400px) {
+        grid-template-columns: 2fr 1fr;
+      }
+    }
+  }
+}

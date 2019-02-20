@@ -1,0 +1,32 @@
+// atomic styles
+@import './variables';
+
+.atomic {
+  &-container {
+    max-width: $max-width;
+    margin: 0 auto;
+  }
+  &-visibility {
+    &--hidden {
+      display: none;
+    }
+  }
+  &-padding {
+    &--small {
+      margin: 0;
+      padding: $safety-zone-s $safety-zone-m;
+    }
+  }
+  &-style {
+    &--italic {
+      font-style: italic;
+      color: $c-wtm-dark-blue;
+    }
+    &--light {
+      color: $c-white;
+    }
+    &--large {
+      font-size: 50px;
+    }
+  }
+}
