@@ -64,7 +64,7 @@
         </div>
         <div class="teaser__wrapper" *ngIf="collection === 'organizers'">
             <h2 class="teaser__hl">Organizers</h2>
-            <mat-grid-list [cols]="3" rowHeight="1:1" (window:resize)="onResize($event)">
+            <mat-grid-list [cols]="breakpointThree" rowHeight="1:1" (window:resize)="onResize($event)">
                 <div *ngFor="let item of data">
                     <mat-grid-tile>
                       <div class="teaser__image">

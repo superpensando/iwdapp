@@ -66,6 +66,11 @@ export const SPONSORS = [
     type: 'bronze'
   },
   {
+    name: 'King',
+    logo: 'king',
+    type: 'silver'
+  },
+  {
     name: 'Autentia',
     logo: 'autentia',
     type: 'support'

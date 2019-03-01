@@ -24,7 +24,7 @@ $custom-typography: mat-typography-config(
 // @include angular-material-theme($theme);
 
 
-$font-size-s: 16px;
+// margins
 $safety-zone-s: 20px;
 $safety-zone-m: 50px;
 $safety-zone-l: 80px;
@@ -39,3 +39,8 @@ $min-height: 300px;
 // transitions
 $style-easeinout: ease-in-out;
 $style-linear: linear;
+
+// fonts
+$font-size-s: 16px;
+$font-size-m: 18px;
+$font-size-l: 40px;
