@@ -361,8 +361,6 @@ MIT
 
 @angular/material/icon
 
-@angular/material/progress-spinner
-
 @angular/forms
 MIT
 
