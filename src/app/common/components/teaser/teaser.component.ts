@@ -2,7 +2,7 @@ import { Component, OnInit, Input, Injectable } from '@angular/core';
 import { Sponsor } from '../../models/sponsor/sponsor.model';
 import { SPONSORS } from '../../mocks/sponsors';
 import { ORGANIZERS } from '../../mocks/organizers';
-
+import { SPEAKERS } from '../../mocks/speakers';
 
 @Component({
   selector: 'app-teaser',
@@ -25,6 +25,7 @@ export class TeaserComponent implements OnInit {
   };
   private sponsors = SPONSORS;
   private organizers = ORGANIZERS;
+  private speakers = SPEAKERS;
   constructor() { }
 
   onResize(event: any) {
@@ -42,6 +43,8 @@ export class TeaserComponent implements OnInit {
       this.data = this.sponsors;
     } else if (this.collection === 'organizers') {
       this.data = this.organizers;
+    } else {
+      this.data = this.speakers;
     }
   }
 }

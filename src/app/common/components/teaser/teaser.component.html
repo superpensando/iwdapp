@@ -79,5 +79,22 @@
                 </div>
             </mat-grid-list>
         </div>
+        <div class="teaser__wrapper" *ngIf="collection === 'speakers'">
+          <mat-grid-list [cols]="breakpointOne" rowHeight="1:1" (window:resize)="onResize($event)">
+              <div *ngFor="let item of data">
+                  <mat-grid-tile>
+                    <div class="teaser__image">
+                      <div class="teaser__figure">
+                        <img alt="{{item.pic}} speaker at IWD Barcelona 2019" src="assets/speakers/{{item.pic}}.png" layout-fill/>
+                      </div>
+                    </div>
+                    <div class="teaser__type {{item.type}}">
+                        <h3 class="teaser__hl">{{item.name}}</h3>
+                        <p class="teaser__hl">{{item.session}}</p>
+                    </div>
+                  </mat-grid-tile>
+              </div>
+          </mat-grid-list>
+      </div>
     </div>
 </section>
