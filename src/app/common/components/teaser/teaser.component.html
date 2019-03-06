@@ -79,8 +79,8 @@
                 </div>
             </mat-grid-list>
         </div>
-        <div class="teaser__wrapper" *ngIf="collection === 'speakers'">
-          <mat-grid-list [cols]="breakpointOne" rowHeight="1:1" (window:resize)="onResize($event)">
+        <div class="teaser__wrapper teaser__wrapper--speakers" *ngIf="collection === 'speakers'">
+          <mat-grid-list [cols]="breakpointFour" rowHeight="1:1" (window:resize)="onResize($event)">
               <div *ngFor="let item of data">
                   <mat-grid-tile>
                     <div class="teaser__image">

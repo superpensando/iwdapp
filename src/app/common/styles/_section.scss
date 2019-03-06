@@ -32,6 +32,10 @@
     &.speakers {
       padding-top: 0;
       background-color: $c-wtm-medium-grey;
+
+      .section__base {
+        color: $c-wtm-dark-grey;
+      }
     }
     &.cta {
       background-color: $c-wtm-background-color-section;
@@ -39,9 +43,6 @@
     &.organizers {
       background-color: $c-wtm-yellow;
 
-      .mat-grid-tile {
-        max-width: 100px;
-      }
       .teaser {
         &__wrapper {
           max-width: 600px;
