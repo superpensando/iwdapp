@@ -17,6 +17,9 @@
       padding: $safety-zone-s $safety-zone-m;
     }
   }
+  &-twitter {
+    padding-top: 10px;
+  }
   &-hide {
     display: none;
     @media (min-width: 600px) {

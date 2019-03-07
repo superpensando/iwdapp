@@ -12,6 +12,11 @@
       @media (min-width: 400px) {
         grid-template-columns: 2fr 1fr;
       }
+      &.grid__base--nomobile {
+        @media (min-width: 668px) {
+          grid-template-columns: 1fr;
+        }
+      }
     }
   }
 }

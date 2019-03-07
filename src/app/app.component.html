@@ -28,7 +28,7 @@
             </div>
         </div>
       </section>
-      <section id="sponsors" class="section__base sponsors atomic-padding--none grid__base grid__base--left">
+      <section id="sponsors" class="section__base sponsors atomic-padding--none grid__base grid__base--left atomic-grid--mobile">
         <div class="aside__base atomic-padding--small dark">
             <h2 class="aside__hl">Meet our sponsors</h2>
             <p class="aside__txt">The following companies support our event and diversity integration in Barcelona.</p>
@@ -38,9 +38,9 @@
         </div>
         <app-teaserlist [type]="teaserType.Sponsor"></app-teaserlist>
       </section>
-      <section id="speakers" class="section__base speakers atomic-padding--none grid__base grid__base--right">
+      <section id="speakers" class="section__base speakers atomic-padding--none grid__base grid__base--right grid__base-nomobile">
         <div class="spinner__base">
-                <!-- <app-teaserlist [type]="teaserType.Speaker"></app-teaserlist> -->
+                <app-teaserlist [type]="teaserType.Speaker"></app-teaserlist>
         </div>
         
         <div class="aside__base atomic-padding--small clear">
