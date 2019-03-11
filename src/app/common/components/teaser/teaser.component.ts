@@ -33,14 +33,14 @@ export class TeaserComponent implements OnInit {
     this.breakpointOne = (event.target.innerWidth <= 600) ? 1 : 3;
     this.breakpointTwo = (event.target.innerWidth <= 600) ? 1 : 2;
     this.breakpointThree = (event.target.innerWidth <= 600) ? 3 : 3;
-    this.breakpointFour = (event.target.innerWidth <= 600) ? 1 : 1;
+    this.breakpointFour = (event.target.innerWidth <= 721) ? 1 : 1;
   }
 
   ngOnInit() {
     this.breakpointOne = (window.innerWidth <= 600) ? 1 : 3;
     this.breakpointTwo = (window.innerWidth <= 600) ? 1 : 2;
     this.breakpointThree = (window.innerWidth <= 600) ? 3 : 3;
-    this.breakpointFour = (window.innerWidth <= 600) ? 1 : 1;
+    this.breakpointFour = (window.innerWidth <= 721) ? 1 : 1;
     this.collection = this.types[this.teasertype.toString()];
     if (this.collection === 'sponsors') {
       this.data = this.sponsors;
