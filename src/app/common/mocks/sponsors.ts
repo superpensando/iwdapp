@@ -4,7 +4,7 @@ export const SPONSORS = [
     name: 'Mango',
     logo: 'mango',
     type: 'silver',
-    web: 'https://shop.mango.com'
+    web: 'http://www.tech.mango/'
   },
   {
     name: 'Marfeel',
@@ -94,6 +94,12 @@ export const SPONSORS = [
     name: 'CodelyTV',
     logo: 'codely',
     type: 'support',
+    web: 'https://codely.tv'
+  },
+  {
+    name: 'Codely',
+    logo: 'codelytech',
+    type: 'support',
     web: 'https://codely.tech'
   },
   {
@@ -113,5 +119,17 @@ export const SPONSORS = [
     logo: 'agilespain',
     type: 'support',
     web: ''
+  },
+  {
+    name: 'Basetis',
+    logo: 'basetis',
+    type: 'bronze',
+    web: 'https://www.basetis.com'
+  },
+  {
+    name: 'Codegram',
+    logo: 'codegram',
+    type: 'bronze',
+    web: 'https://www.codegram.com'
   }
 ];
