@@ -23,6 +23,13 @@
         }
       }
     }
+    &--speakers {
+      padding: 20px;
+    }
+  }
+  &__extended {
+    display: none;
+    
   }
   &__hl {
     color: $c-white;
@@ -30,6 +37,24 @@
   &__figure {
     img {
       max-width: 100%;
+    }
+  }
+  &__extendedWrapper {
+    background-color: $c-white;
+    padding: 10px;
+  }
+  &__list {
+    padding: 7px;
+    background-color: $c-wtm-light-grey;
+    margin-bottom: 20px;
+
+    &Item {
+      display: flex;
+      padding: 20px 0;
+
+      @media(max-width: 400px) {
+        display: block;
+      }
     }
   }
 }

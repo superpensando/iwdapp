@@ -92,7 +92,7 @@ export const SPONSORS = [
   },
   {
     name: 'CodelyTV',
-    logo: 'codely',
+    logo: 'codelytv',
     type: 'support',
     web: 'https://codely.tv'
   },

@@ -76,6 +76,23 @@ $max-logo-width: 280px;
     margin: 5px auto;
   }
 
+  &__span {
+    &:first-child {
+      display: block;
+      line-height: 2;
+    }
+  }
+
+  &__link {
+    color: $c-white;
+
+    &:visited,
+    &:active,
+    &:link {
+      color: $c-white;
+    }
+  }
+
   &__nav {
     text-align: center;
 

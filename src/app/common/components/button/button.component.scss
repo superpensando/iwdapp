@@ -38,6 +38,19 @@
         color: $c-button-green;
       }
     }
+
+    &--yellow {
+      border: 1px solid $c-wtm-yellow;
+      background-color: $c-wtm-yellow;
+      color: $c-white;
+
+      &:hover,
+      &:focus {
+        border: 1px solid $c-wtm-yellow;
+        background-color: $c-white;
+        color: $c-wtm-yellow;
+      }
+    }
   }
 }
 
