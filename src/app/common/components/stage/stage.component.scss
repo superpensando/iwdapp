@@ -9,8 +9,10 @@
     @media (min-width: 600px) {
       margin-top: $safety-zone-l+20px;
     }
+    // hack GDG logo in stage
     .footer__logo {
-      margin: 5px 0;
+      margin: -6px 0;
+      display: inline-block;
     }
   }
   &__hl {
@@ -28,5 +30,13 @@
     &.atomic-special--date {
       font-style: italic;
     }
+  }
+  // hack button styles
+  .caption__button {
+    margin-bottom: 10px;
+  }
+  .footer__span {
+    margin-top: 5px;
+    display: inline-block;
   }
 }

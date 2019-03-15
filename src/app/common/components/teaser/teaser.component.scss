@@ -48,6 +48,14 @@
     background-color: $c-wtm-light-grey;
     margin-bottom: 20px;
 
+    &:nth-child(odd) {
+      border-bottom: 10px solid $c-wtm-yellow;
+    }
+
+    &:nth-child(even) {
+      border-bottom: 10px solid $c-button-red;
+    }
+
     &Item {
       display: flex;
       padding: 20px 0;
