@@ -27,6 +27,9 @@
       .mat-grid-tile {
         @include boxShadow();
         background-color: white;
+        .mat-figure {
+          padding:0 10px;
+        }
       }
     }
     &.speakers {
@@ -36,7 +39,7 @@
       // tiles overrides!
       .mat-grid-tile .mat-figure {
         justify-content: left;
-        padding-left: $safety-zone-s;
+        padding-left: $safety-zone-s; 
       }
 
       .teaser {
