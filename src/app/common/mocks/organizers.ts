@@ -53,5 +53,11 @@ export const ORGANIZERS = [
     short: 'Natalia',
     pic: 'natalia',
     twitter: ''
+  },
+  {
+    name: 'Cristina',
+    short: 'Cristina',
+    pic: 'cristina',
+    twitter: ''
   }
 ];
