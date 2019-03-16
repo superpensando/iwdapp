@@ -25,7 +25,7 @@
       background-color: $c-wtm-background-color-contrast;
 
       .mat-grid-tile {
-        @include boxShadow();
+        //@include boxShadow();
         background-color: white;
         .mat-figure {
           padding:0 10px;
