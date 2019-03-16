@@ -3,6 +3,10 @@
 
 .teaser {
   &__wrapper {
+    h2{
+      padding-left:10px;
+      padding-right:10px; 
+    }
     &--hero {
       min-height: 400px;
       .teaser {
