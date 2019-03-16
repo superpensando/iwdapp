@@ -43,7 +43,7 @@ export const SPEAKERS = [
     pic: 'laura',
     twitter: 'superpensando',
     bio: 'Laura tiene más de 17 años de experiencia en programación web. Estudió Física y en 1994 vivió el nacimiento de internet casi a tiempo real. Y también, la transformación de la descripción de los puestos de trabajo a lo largo de estos años. Ahora es front-end developer especializada en User Interface. Mañana? Quién sabe!',
-    summary: 'Desde que me dedico a la pogramación web, el mundo de los CSS es el gran olvidado y contínuamente me encuentro con "proyectos frankeinstein" donde se ha generado un verdadero CAOS en los CSS y no se puede reaprovechar nada. Trabajar con Metodologías y arquitecturas CSS ya no sólo como buenas prácticas, sino como necesidad.'
+    summary: 'Desde que me dedico a la programación web, el mundo de los CSS es el gran olvidado y contínuamente me encuentro con "proyectos frankeinstein" donde se ha generado un verdadero CAOS en los CSS y no se puede reaprovechar nada. Trabajar con Metodologías y arquitecturas CSS ya no sólo como buenas prácticas, sino como necesidad.'
   },
   {
     name: 'Alejandra Ventura',
