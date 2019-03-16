@@ -3,6 +3,7 @@
 @import './variables';
 @import './mixins';
 $max-logo-width: 280px;
+$max-logo-width-smallmobile: 255px; 
 
 .header {
   &__base {
@@ -15,6 +16,9 @@ $max-logo-width: 280px;
   }
   &__logo {
     max-width: $max-logo-width;
+    @media(max-width: 400px) {
+      max-width: $max-logo-width-smallmobile;
+    }
   }
 }
 .main {
